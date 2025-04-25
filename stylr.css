@@ -1,0 +1,128 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    color: #808080;
+    margin-bottom: 5px;
+}
+
+.logo span {
+    color: #3A8D2C;
+    font-weight: bold;
+}
+
+.sistema {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.container {
+    padding: 40px 60px;
+}
+
+.subtitulo {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.autenticacao h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.icone {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.formulario, .resultado {
+    margin-top: 20px;
+}
+
+details summary {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.mensagem {
+    background-color: #d0e3ff;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.info-icon {
+    margin-right: 8px;
+    color: #0056b3;
+}
+
+.formulario-texto {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    font-weight: bold;
+    color: #990000; /* Vermelho escuro igual ao da imagem */
+    margin-bottom: 5px;
+}
+
+.campo .valor {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.captcha-fake {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: fit-content;
+}
+
+.checkbox-fake {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    margin-right: 10px;
+}
